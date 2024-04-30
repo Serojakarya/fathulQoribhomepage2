@@ -1,0 +1,213 @@
+body {
+  background: #f4f4f4;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  width: 430px;
+  background: #ffffff;
+  box-shadow: 0px 22px 48px 0px rgba(0, 0, 0, 0.1);
+  margin-top: 4%;
+}
+.box ul {
+  display: flex;
+  padding: 10px 43px 0px 43px;
+  justify-content: space-between;
+}
+.box ul li {
+  list-style: none;
+  cursor: pointer;
+}
+.box ul li a {
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #a7a7a7;
+}
+.box ul .active a {
+  color: #ff3366;
+}
+.box .card {
+  width: 350px;
+  height: auto;
+  background: #ffffff;
+  margin-top: 37px;
+  margin-bottom: 60px;
+  border-radius: 10px;
+  box-shadow: 0px 20px 48px -9px rgba(0, 0, 0, 0.23);
+}
+.box .thumbnail_one {
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/ee84a238612421.57688dd221004.jpg");
+  background-position: 70% 10%;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  width: 100%;
+  min-height: 330px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box .thumbnail_one img {
+  width: 100px;
+  height: auto;
+  border-radius: 10px;
+}
+.box .thumbnail {
+  width: 100%;
+  min-height: 330px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.box .thumbnail img {
+  width: 100px;
+  height: auto;
+  border-radius: 10px;
+}
+.box .content {
+  display: flex;
+  padding: 40px 25px 37px 25px;
+  justify-content: space-between;
+}
+.box .title h1 {
+  font-size: 1.3em;
+  font-weight: 300;
+  line-height: 5px;
+}
+.box .title small {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  color: #a7a7a7;
+}
+.box .picture a img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  border: 4px solid #ffffff;
+  margin-left: -12px;
+  direction: rtl;
+}
+
+.nav-button ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 50px;
+}
+.nav-button ul li a {
+  font-size: 2em;
+  transition: all 0.5s ease;
+  color: #a7a7a7;
+}
+.nav-button ul :hover {
+  transition: all 0.5s ease;
+  color: #ff3366;
+}
+
+#main li a:hover {
+  transition: all 0.5s ease;
+  color: #ff3366;
+}
+
+.line {
+  position: relative;
+  top: 15px;
+  width: 100%;
+  height: 2px;
+  background: #ff3366;
+  padding: 10px;
+}
+
+#busca {
+  float: right;
+  position: relative;
+  top: -35px;
+  right: 30px;
+  height: 0;
+}
+#busca a {
+  text-decoration: none;
+}
+
+input {
+  position: relative;
+  width: 300px;
+  top: -7px;
+  left: 0px;
+  border-radius: 20px;
+  border: 1px solid #a7a7a7;
+  padding: 10px;
+  display: none;
+  color: #747474;
+  margin-right: 11px;
+}
+
+.lnr-magnifier {
+  font-size: 20px;
+  color: #a7a7a7;
+}
+
+.main-carousel {
+  width: 100%;
+  margin: 0px;
+  margin-bottom: -15px;
+}
+
+.flickity-viewport {
+  width: 100%;
+}
+
+.flickity-slider {
+  position: absolute;
+  width: 442px;
+  height: 100%;
+}
+
+.bg-one {
+  background-image: url("../id.png");
+  background-position: center;
+  background-attachment: scroll;
+  background-size: auto;
+}
+
+.bg-two {
+  background-image: url("../rajab.png");
+  background-position: 60% 170%;
+  background-attachment: scroll;
+  background-size: auto;
+}
+
+.bg-tree {
+  background-image: url("https://images.pexels.com/photos/668278/pexels-photo-668278.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+  background-position: center;
+  background-attachment: scroll;
+  background-size: auto;
+}
+
+#main {
+  position: relative;
+  list-style: none;
+}
+
+#magic-line {
+  position: absolute;
+  bottom: -30px;
+  width: 100px;
+  height: 2px;
+  background: #ff3366;
+}
+
+.borderGap {
+  border: 1px solid #000;
+}
