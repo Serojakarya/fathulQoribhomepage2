@@ -1,0 +1,207 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+
+.card .card-content .card-title {
+  color: #4b4b4b!important;
+}
+body{
+    background: #D4E4F7
+}
+
+.audio {
+  font-family: 'Lato', 'Roboto', sans-serif;
+  font-weight: 400;
+  background: #252525;
+  color:#e1e1e1;
+}
+
+.audio-top{
+  top:0;
+  width:100%; 
+  margin-bottom: 1em;
+}
+
+.audio-floating {
+    bottom: 0;
+    position: fixed;
+    margin-bottom: 1em;
+    right: 0;
+    transform: translate(-50%, 0);
+    left: 50%;
+    width: 80%;
+
+}
+
+    
+
+.audiojs {
+    width:100%;
+    height: 36px;
+    background: #404040;
+    overflow: hidden;
+    font-family: 'Roboto',"Helvetica",sans-serif!important;
+
+    font-size: 12px;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #444), color-stop(0.5, #555), color-stop(0.51, #444), color-stop(1, #444));
+    background-image: -moz-linear-gradient(center top, #444 0%, #555 50%, #444 51%, #444 100%);
+    -webkit-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3);
+    -o-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+.audiojs .play-pause {
+    width: 40px;
+    height: 40px;
+    padding: 4px 6px;
+    margin: 0px;
+    float: left;
+    overflow: hidden;
+    border-right: 1px solid #000;
+}
+
+.audiojs .progress {
+    position: absolute;
+    top: -8px;
+    left: 0px;
+    height: 14px;
+     width: 0px; 
+    background: #ccc;
+    z-index: 1;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ccc), color-stop(0.5, #ddd), color-stop(0.51, #ccc), color-stop(1, #ccc));
+    background-image: -moz-linear-gradient(center top, #ccc 0%, #ddd 50%, #ccc 51%, #ccc 100%);
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+h1 {font-size: 30px!important;}
+h2 {font-size: 28px!important;}
+h3 {font-size: 24px!important;}
+h4 {font-size: 18px!important;}
+h5 {font-size: 14px!important;}
+h6 {font-size: 12px!important;}
+
+.launch h1 {
+
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    margin: 0;
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: 5px;
+    font-size: 45px;
+    line-height: 48px;
+    color: #ffffff;
+}
+
+.title-span img{
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  margin-right:10px;
+}
+
+.card-content .title-span{
+  display:flex;
+  flex-direction:row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.title-span{
+  min-height: 50px;
+}
+
+.title-span span{
+  font-size: 16px;
+  line-height: 18px;
+  color:#4b4b4b!important;
+}
+
+.title-span span a{
+  color:#4b4b4b!important;
+}
+
+p {
+  color: #757575!important;
+}
+
+.card .card-content {
+    padding: 10px!important;
+    border-radius: 0 0 2px 2px;
+}
+
+.card .card-content .card-title {
+    margin-bottom: 0px!important;
+}
+
+img.responsive-image {
+    position: relative;
+    max-width: 70px;
+    height: auto;
+    padding: 10px;
+    background-position: center;
+    display: inline-block;
+}
+
+.imgfloat { float: left; }
+
+.imgthumb {
+  border: 1px solid #fff;
+  padding: 10px;
+  align-content: center;
+  height: 60px;
+  width: 60px;
+}
+
+
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
